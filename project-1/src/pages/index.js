@@ -14,6 +14,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <nav className={styles.nav_menu}>
+        <ul>
+          <li><a href="#">About us</a> </li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
       <main className={styles.main}>
         {/* <div className={styles.description}>
           <p>
@@ -43,7 +50,6 @@ export default function Home() {
           <h1>My First Project</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </div>
-
         <div className={styles.center}>
           <Image
             className={styles.logo}
@@ -64,7 +70,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -121,7 +127,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   )
