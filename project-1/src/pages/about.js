@@ -1,13 +1,13 @@
-import React from 'react'
-import Dummy from '@/components/dummy'
+import React from "react";
+import Dummy from "@/components/dummy";
 
 const About = () => {
   return (
-    <>
-    <Dummy/>
-    <div>about</div>
-    </>
-  )
-}
+    <div>
+      <Dummy />
+      <div>about</div>
+    </div>
+  );
+};
 
-export default About
+export default About;
