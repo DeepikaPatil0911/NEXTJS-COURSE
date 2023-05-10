@@ -15,8 +15,12 @@ export default function Home() {
       </Head>
 
       <Header />
-      <main className={`${styles.index_page} bg_secondary`}>
-        <h2>This is ting base next.js template</h2>
+      <main className={`${styles.index_page}`}>
+        <section className="banner_section">
+
+          <img src="img/modern-living.png" alt="mordern living"/>
+
+        </section>
       </main>
       <Footer />
     </div>
