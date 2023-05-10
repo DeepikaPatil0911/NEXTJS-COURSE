@@ -1,12 +1,17 @@
+import React from 'react'
 import Link from "next/link";
-import styles from "../styles/components/Header.module.scss";
 
 const Header = () => {
-  return <div className={`${styles.main_header}`}>
+  return (
+    <div>
+      {/* <ul>
+        <li>
+          <Link href="./index"><a><li>Home</li></a></Link>
+          <Link href=""><a><li>Blog</li></a></Link>
+        </li>
+      </ul> */}
+    </div>
+  )
+}
 
-
-    <ul><li><Link>Home</Link></li></ul>
-  </div>;
-};
-
-export default Header;
+export default Header

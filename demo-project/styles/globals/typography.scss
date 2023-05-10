@@ -1,16 +1,38 @@
 // .text_xxs {}
 // .text_xs {}
-// .text_sm {}
+.text_sm {
+   font-size: 16px;
+   line-height: calc(24/16)
+}
 
 //for default body copy font
 .text_reg {
+   font-size: 20px;
+   line-height: calc(23/20)
 }
 
-// .text_md {}
-// .text_lg {}
-// .text_xl {}
-// .text_xxl {}
+.text_md {
+   font-size: 24px;
+   line-height: calc(36/24)
+}
+
+.text_lg {
+   font-size: 32px;
+   line-height: calc(38/32)
+}
+
+.text_xl {
+   font-size: 64px;
+   line-height: calc(75/64);
+}
+
+.text_xxl {
+   font-size: 82px;
+   line-height: calc(96/82);
+}
+
 // .text_xxxl {}
+
 // .text_xxxxl {}
 
 // //each loop for creating font weights ->
@@ -18,7 +40,7 @@
 $sizes: 400, 500, 600, 700, 800, 900; //reg,med,semibold,bold,extrabold,black
 
 @each $size in $sizes {
-  .text_#{$size} {
-    font-weight: $size;
-  }
+   .text_#{$size} {
+      font-weight: $size;
+   }
 }

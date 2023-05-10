@@ -1,11 +1,52 @@
 @import "../helpers/helpers.scss";
 
 .index_page {
-  min-height: 100vh;
-  @extend %f_r_aj_center;
+   //   min-height: 100vh;
+   //   @extend %f_r_aj_center;
 
-  .banner_section{
-    
-  }
-  
+   .banner_section {
+      position: relative;
+
+      img {
+         width: 100%;
+      }
+
+      .banner_text {
+         position: absolute;
+         top: 20%;
+         @extend %rel_x_center;
+         color: #fff;
+         width: 100%;
+         text-align: center;
+
+         .section_title {}
+      }
+   }
+
+   .mobile_shopping {
+      .shoppiner_inner {
+         @extend %f_r_a_center;
+         justify-content: space-between;
+
+         .options {
+            display: flex;
+
+            .online_option {
+               padding-left: 24px;
+
+               h4 {
+                  padding-bottom: 15px;
+               }
+            }
+         }
+      }
+   }
+
+   .best_sellar_product {
+      display: flex;
+
+      .left_sec {}
+
+      .right_sec {}
+   }
 }
