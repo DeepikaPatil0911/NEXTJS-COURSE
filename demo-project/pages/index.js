@@ -15,7 +15,14 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
          </Head>
 
-         <Header />
+      <ul>
+        <li>
+          <Link href="/"><a><li>Home</li></a></Link>
+          <Link href="/blog"><a><li>Blog</li></a></Link>
+        </li>
+      </ul>
+
+         {/* <Header /> */}
          <main className={`${styles.index_page}`}>
             <section className={`${styles.banner_section}`}>
                <img src="../img/home/modern-living.jpg" alt="" />
@@ -61,7 +68,7 @@ export default function Home() {
                         Product</h3>
                      <Link href="#"><p className="text_md">See all colection &#10509;</p></Link>
                   </div>
-                  <div className={`${styles.right_sec} col-md-8m`}>
+                  <div className={`${styles.right_sec} col-md-8`}>
                      <div className={`${styles.product_sec} col-md-4`}>
                         <img src="../img/home/image1.png" alt="" />
                         <div className={`${styles.grey_bg}`}></div>
