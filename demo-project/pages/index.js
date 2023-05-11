@@ -15,14 +15,7 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
          </Head>
 
-      <ul>
-        <li>
-          <Link href="/"><a><li>Home</li></a></Link>
-          <Link href="/blog"><a><li>Blog</li></a></Link>
-        </li>
-      </ul>
-
-         {/* <Header /> */}
+         <Header />
          <main className={`${styles.index_page}`}>
             <section className={`${styles.banner_section}`}>
                <img src="../img/home/modern-living.jpg" alt="" />
@@ -80,5 +73,5 @@ export default function Home() {
          </main>
          <Footer />
       </div>
-   );
+   )
 }

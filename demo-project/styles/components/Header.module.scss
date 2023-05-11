@@ -3,9 +3,20 @@
 .main_header {
    @extend %full_overlay;
    @extend %f_r_aj_center;
-   height: 100px;
-   position: fixed;
+   height: 60px;
+   position: sticky;
    z-index: 20;
+   background-color: #fff;
 
+
+   ul {
+      @extend %f_r_a_center;
+      justify-content: flex-end;
+
+      li {
+         list-style-type: none;
+         padding: 0 15px;
+      }
+   }
 
 }
